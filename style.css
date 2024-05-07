@@ -1,0 +1,143 @@
+.khana{
+     background: rgb(246,230,246);
+    background: linear-gradient(145deg, rgba(246,230,246,1) 80%, rgba(252,144,252,1) 100%, rgba(255,242,255,1) 100%);
+    height: 98vh;
+}
+
+.text{
+    font-size: 30px;
+    color: rgb(57, 4, 57);
+    text-align: left;
+    width: 50vw;
+    padding-left: 10vw;
+    display: flex;
+    align-items: center;
+    padding-top: 10vh;
+    font-weight: bolder;
+}
+.text .free{color: rgb(237, 89, 237) ;
+
+}
+.para{
+    width: 50vw;
+    padding-left: 10vw;
+    font-size: 20px;
+   
+
+}
+.button button{
+    background-color: purple;
+    border: none;
+    border-radius: 3px;
+    padding: 3vh 3vw;
+    display: flex;
+    color:white;
+    font-weight: bolder;
+
+}
+.button{
+    padding-left: 10vw;
+    padding-top: 7vh;
+   
+  
+}
+.img{
+
+margin-left: 50vw; 
+margin-top: -500px;
+}
+.nav-item .nav-link{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: underline;
+    
+   
+}
+.nav-item{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 80px;
+    
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 50vw;
+    padding-left: 30px;
+    text-decoration: underline;
+
+}
+.navbar-brand:hover{text-decoration: underline;
+
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-expand-lg button{
+    font-weight: bold;
+    background-color: rgb(243, 146, 243);
+    padding: 8px;
+    border: 2px solid purple;
+    margin-left: 20vw;
+
+}
+
+@media  (max-width:480px) {
+   .khana{
+    width: auto;
+   }
+    .text{
+        margin-top: -50px;
+        font-size: 20%;
+    }
+ .para{
+    height:70vh;
+    width: 70vw;
+font-size: 12px;}
+ .img{
+    width: 40vw;
+    height: 60vh;
+    margin-left:260px;
+margin-top: -150vh;
+}
+.button button{
+   padding: 2vh 2vw;
+   margin-top: -45vh;
+   background-color: purple;
+   
+   
+}
+
+    
+}
+@media( max-width:768px) {
+    .khana{
+        width: auto;
+        height: 125vh;
+    }
+    .para{
+      font-size: 15px;
+        width: 70vw;
+    }
+    .img{
+        display: none;
+    }
+    .text{
+        font-size: 50px;
+
+    }
+    .navbar-brand{
+        padding-left: 10vw;
+        font-size: 50px;
+        font-weight: bolder;
+        width: 20vw;
+        padding-top: 10vh;
+    }
+    .button button{
+        background-color: purple;
+        
+    }
+
+
+    
+}
